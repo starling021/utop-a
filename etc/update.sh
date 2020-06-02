@@ -59,7 +59,7 @@ rm /bin/utopia
 rm /usr/local/bin/utopia
 rm /data/data/com.termux/files/usr/bin/utopia
 cd ~
-git clone https://github.com/enty8080/utopia.git
+git clone https://github.com/entynetproject/utopia.git
 if [[ "$UPD" != "true" ]]
 then
 sleep 0
