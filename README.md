@@ -75,19 +75,18 @@ It is easy to understand and it will be easier
 for you to master the Utopia Framework.
 ```  
 
-* Simple SSH exploitation.
-
-```
-Utopia Framework makes SSH exploitation very simple. 
-With Utopia Framework you can master basic methods 
-of SSH exploitation very easily.
-```
-
 * A lot of different modules.
 
 ```
 There are a lot of different modules in Utopia Framework 
 such as libssh_rce_noauth and libssh_shell_noauth.
+```
+
+* Simple SSH exploitation.
+
+```
+Utopia Framework makes mastering 
+SSH exploitation very easily. 
 ```
 
 ***
