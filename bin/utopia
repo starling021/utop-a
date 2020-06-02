@@ -33,7 +33,7 @@ if [[ "$ASESR" = 0 ]]
 then 
 cd ~
 {
-git clone https://github.com/enty8080/utopia.git
+git clone https://github.com/entynetproject/utopia.git
 cd $OLDPWD
 cd ~/utopia
 } &> /dev/null
