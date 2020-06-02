@@ -3,23 +3,23 @@
 ![utopia](https://user-images.githubusercontent.com/54115104/83402597-bff21700-a40f-11ea-852f-ab433356f8b7.jpeg)
 
 <p align="center">
-    <a href="https://github.com/enty8080">
-    <img src="https://img.shields.io/badge/enty8080-Ivan%20Nikolsky-blue.svg">
+    <a href="https://github.com/entynetproject">
+    <img src="https://img.shields.io/badge/entynetproject-Ivan%20Nikolsky-blue.svg">
   </a> 
-  <a href="https://github.com/enty8080/utopia/releases">
-    <img src="https://img.shields.io/github/release/enty8080/utopia.svg">
+  <a href="https://github.com/entynetproject/utopia/releases">
+    <img src="https://img.shields.io/github/release/entynetproject/utopia.svg">
   </a>
   <a href="https://wikipedia.org/wiki/Python_(programming_language)">
     <img src="https://img.shields.io/badge/language-python-blue.svg">
  </a>
-  <a href="https://github.com/enty8080/utopia/issues?q=is%3Aissue+is%3Aclosed">
-      <img src="https://img.shields.io/github/issues/enty8080/utopia.svg">
+  <a href="https://github.com/entynetproject/utopia/issues?q=is%3Aissue+is%3Aclosed">
+      <img src="https://img.shields.io/github/issues/entynetproject/utopia.svg">
   </a>
-  <a href="https://github.com/enty8080/utopia/wiki">
+  <a href="https://github.com/entynetproject/utopia/wiki">
       <img src="https://img.shields.io/badge/wiki%20-utopia-lightgrey.svg">
  </a>
-  <a href="https://twitter.com/enty8080">
-    <img src="https://img.shields.io/badge/twitter-enty8080-blue.svg">
+  <a href="https://twitter.com/entynetproject">
+    <img src="https://img.shields.io/badge/twitter-entynetproject-blue.svg">
  </a>
 </p>
 
