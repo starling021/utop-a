@@ -91,7 +91,7 @@ sleep 0
 else
 cd ~
 {
-git clone https://github.com/enty8080/utopia.git
+git clone https://github.com/entynetproject/utopia.git
 } &> /dev/null
 fi
 
