@@ -78,8 +78,9 @@ for you to master the Utopia Framework.
 * A lot of different modules.
 
 ```
-There are a lot of different modules in Utopia Framework 
-such as libssh_rce_noauth and libssh_shell_noauth.
+There are a lot of different modules for SSH 
+exploitation in Utopia Framework such as 
+libssh_rce_noauth and libssh_shell_noauth.
 ```
 
 * Simple SSH exploitation.
