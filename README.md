@@ -75,9 +75,11 @@ It is easy to understand and it will be easier
 for you to master the Utopia Framework.
 ```  
 
-* 
+* Simple SSH exploitation.
 
 ```
+Utopia Framework makes SSH exploitation very simple. With 
+Utopia Framework you can master basic methods of SSH exploitation.
 ```
 
 * A lot of different modules.
