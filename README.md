@@ -28,8 +28,9 @@
 # About Utopia Framework
 
 ```
-Utopia Framework is an advanced penetration testing tool that 
-exploits LibSSH to bypass SSH authentication and provide RCE.
+Utopia Framework is a Linux post-exploitation framework that exploits 
+Linux SSH vulnerability to provide a shell-like connection. Utopia 
+Framework can be used to easily master Linux SSH exploitation.
 ```
 
 ***
@@ -87,7 +88,7 @@ libssh_rce_noauth and libssh_shell_noauth.
 
 ```
 Utopia Framework makes mastering 
-SSH exploitation very easily. 
+Linux SSH exploitation very easily. 
 ```
 
 ***
