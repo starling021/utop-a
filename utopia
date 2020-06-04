@@ -78,7 +78,7 @@ def main():
                 print("Usage: use <module>")
             else:
                 attack = ui[1]
-                if attack == "libssh_rce_noauth" or attack == "libssh_shell_noauth":
+                if attack == "libssh_cmd_noauth" or attack == "libssh_shell_noauth":
                     location.append('')
                     location[pwd] = ui[1]
                     mod = input('\033[4mutopia\033[0m(\033[1;31m'+location[pwd]+'\033[0m)> ').strip(" ")
@@ -96,7 +96,7 @@ def main():
                             if len(mod) < 3:
                                 print("Usage: set <option> <value>")
                             else:
-                                if location[pwd] == "libssh_rce_noauth":
+                                if location[pwd] == "libssh_cmd_noauth":
                                     if mod[1].lower() == "rhost":
                                         rhost = mod[2]
                                         print(I + "RHOST ==> " + mod[2])
@@ -118,14 +118,14 @@ def main():
                                     else:
                                         print(E+"Options is not found!")
                         elif mod[0] == "options":
-                            if location[pwd] == "libssh_rce_noauth":
+                            if location[pwd] == "libssh_cmd_noauth":
                                 if rhost == "":
                                     rhost = "none"
                                 if rport == "":
                                     rport = "none"
                                 if cmd == "":
                                     cmd = "none"
-                                os.system("ruby data/options/options.rb libssh_rce_noauth "+rhost+" "+rport+" '"+cmd+"'")
+                                os.system("ruby data/options/options.rb libssh_cmd_noauth "+rhost+" "+rport+" '"+cmd+"'")
                             else:
                                 if rhost == "":
                                     rhost = "none"
@@ -137,7 +137,7 @@ def main():
                                 print("Usage: use <module>")
                             else:
                                 attack = mod[1]
-                                if attack == "libssh_rce_noauth" or attack == "libssh_shell_noauth":
+                                if attack == "libssh_cmd_noauth" or attack == "libssh_shell_noauth":
                                     location.append('')
                                     pwd += 1
                                     location[pwd] = mod[1]
@@ -150,7 +150,7 @@ def main():
                             if rhost == "" or rport == "":
                                 print(E+"Target is not specified!")
                             else:
-                                if location[pwd] == "libssh_rce_noauth":
+                                if location[pwd] == "libssh_cmd_noauth":
                                     if cmd == "":
                                         print(E+"Command for RCE is not specified!")
                                     else:
