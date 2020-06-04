@@ -154,10 +154,8 @@ def main():
                                     if cmd == "":
                                         print(E+"Command for RCE is not specified!")
                                     else:
-                                        print(G+"Starting libssh_rce_noauth attack...")
                                         os.system("python3 core/exploit.py "+rhost+" -p "+rport+" -v '"+cmd+"'")
                                 elif attack == "libssh_shell_noauth":
-                                    print(G+"Starting libssh_shell_noauth attack...")
                                     os.system("python3 core/exploit.py "+rhost+" -p "+rport+" -v --shell")
                         elif mod[0] == "clear":
                             os.system("clear")
