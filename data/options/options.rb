@@ -59,7 +59,7 @@ if attack == "libssh_rce_noauth"
     puts "    ------        -----#{stf}-----------"
     printf "    %-14s%-#{fts}s%s\n", "RHOST", rhost, "Remote host."
     printf "    %-14s%-#{fts}s%s\n", "RPORT", rport, "Remote port."
-    printf "    %-14s%-#{fts}s%s\n", "CMD", cmd, "Command for RCE."
+    printf "    %-14s%-#{fts}s%s\n", "CMD", cmd, "Command to run."
     puts ""
 else
     if rhost.length >= 12 or rport.length >= 12
