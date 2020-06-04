@@ -23,13 +23,13 @@ rhost = ARGV[1]
 rport = ARGV[2]
 cmd = ARGV[3]
 
-if rhost == nil
+if rhost == "none" or rhost == nil
     rhost = ""
 end
-if rport == nil
+if rport == "none" or rport == nil
     rport = ""
 end
-if cmd == nil
+if cmd == "none" or cmd == nil
     cmd = ""
 end
 
