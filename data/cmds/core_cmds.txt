@@ -2,8 +2,8 @@
     Command        Description
     -------        -----------
     clear          Clear terminal window.
-    exit           Exit Ghost Framework.
+    exit           Exit Utopia Framework.
     help           Show available commands.
     modules        Show available modules.
-    update         Update Ghost Framework.
+    update         Update Utopia Framework.
     use            Use specified module.
