@@ -49,7 +49,7 @@ def main():
     pwd = 0
     rhost = ""
     rport = ""
-    cmd = ""
+    cmd = "uname -a"
     ui = input('\033[4mutopia\033[0m> ').strip(" ")
     ui = ui.split()
     while True:
@@ -119,8 +119,18 @@ def main():
                                         print(E+"Options is not found!")
                         elif mod[0] == "options":
                             if location[pwd] == "libssh_rce_noauth":
-                                os.system("ruby data/options/options.rb libssh_rce_noauth "+rhost+" "+rport+" "+cmd)
+                                if rhost == "":
+                                    rhost = "none"
+                                if rport == "":
+                                    rport = "none"
+                                if cmd == "":
+                                    cmd = "none"
+                                os.system("ruby data/options/options.rb libssh_rce_noauth "+rhost+" "+rport+" '"+cmd+"'")
                             else:
+                                if rhost == "":
+                                    rhost = "none"
+                                if rport == "":
+                                    rport = "none"
                                 os.system("ruby data/options/options.rb libssh_shell_noauth "+rhost+" "+rport)
                         elif mod[0] == "use":
                             if len(mod) < 2:
