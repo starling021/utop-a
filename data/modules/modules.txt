@@ -1,5 +1,5 @@
 
     Module               Description
     ------               -----------
-    libssh_exec_noauth    LibSSH RCE.
-    libssh_shell_noauth  LibSSH shell.
+    libssh_exec_noauth   SSH execute commands without authentication.
+    libssh_shell_noauth  SSH shell access without authentication.
