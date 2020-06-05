@@ -148,11 +148,11 @@ def main():
                                     print(E+"Module is not found!")
                         elif mod[0] == "run":
                             if rhost == "" or rport == "":
-                                print(E+"Target is not specified!")
+                                print(E+"Failed to start exploit!")
                             else:
                                 if location[pwd] == "libssh_exec_noauth":
                                     if cmd == "":
-                                        print(E+"Command for RCE is not specified!")
+                                        print(E+"Failed to start exploit!")
                                     else:
                                         os.system("python3 core/exploit.py "+rhost+" -p "+rport+" -v '"+cmd+"'")
                                 elif attack == "libssh_shell_noauth":
