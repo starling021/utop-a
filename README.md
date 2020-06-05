@@ -83,7 +83,7 @@ for you to master the Utopia Framework.
 ```
 There are a lot of different modules for SSH 
 exploitation in Utopia Framework such as 
-libssh_cmd_noauth and libssh_shell_noauth.
+libssh_exec_noauth and libssh_shell_noauth.
 ```
 
 * Simple SSH exploitation.
