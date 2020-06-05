@@ -60,8 +60,8 @@ Framework can be used to easily master Linux SSH exploitation.
 # Utopia Framework execution
 
 ```
-To execute Utopia Framework you
-should execute the following command.
+To run Utopia Framework you should 
+execute the following command.
 ```
 
 > utopia
