@@ -23,7 +23,7 @@
  </a>
 </p>
 
-![utopia](https://user-images.githubusercontent.com/54115104/83810395-b9d69180-a6c0-11ea-9a57-1c08c3baddf7.png)
+![utopia](https://user-images.githubusercontent.com/54115104/83916633-30859480-a77e-11ea-85f7-570af00057c1.png)
 
 ***
 
@@ -93,7 +93,7 @@ Utopia Framework makes mastering
 Linux SSH exploitation very easily. 
 ```
 
-![shell](https://user-images.githubusercontent.com/54115104/83810377-b511dd80-a6c0-11ea-8ff3-8ad46ccc7293.png)
+![shell](https://user-images.githubusercontent.com/54115104/83916636-311e2b00-a77e-11ea-9c25-a2266f2ff481.png)
 
 ***
 
