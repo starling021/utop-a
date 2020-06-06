@@ -33,7 +33,7 @@ if cmd == "none" or cmd == nil
     cmd = ""
 end
 
-if attack == "libssh_exec_noauth"
+if attack == "ssh_exec_noauth"
     if rhost.length >= 12 or rport.length >= 12 or cmd.length >= 12
         if rhost.length >= rport.length and rhost.length >= cmd.length
             stf = " " * (rhost.length - 3)

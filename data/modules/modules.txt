@@ -1,5 +1,5 @@
 
-    Module               Description
-    ------               -----------
-    libssh_exec_noauth   SSH execute commands without authentication.
-    libssh_shell_noauth  SSH shell access without authentication.
+    Module            Description
+    ------            -----------
+    ssh_exec_noauth   SSH execute commands without authentication.
+    ssh_shell_noauth  SSH shell access without authentication.
