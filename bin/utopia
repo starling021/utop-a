@@ -44,8 +44,7 @@ cd ~/utopia
 chmod +x utopia
 ./utopia
 else
-cd ~
-sleep 1
+echo -e ""$E"No Internet connection!"
 exit
 fi
 fi
