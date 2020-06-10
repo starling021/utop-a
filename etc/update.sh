@@ -69,6 +69,11 @@ chmod +x install.sh
 ./install.sh
 fi
 } &> /dev/null
+if [[ ! -d ~/utopia ]]
+then
+   echo -e ""$E"Installation failed!"
+   exit
+fi
 echo -e ""$S"Successfully updated!"
 sleep 1
 exit
