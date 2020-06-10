@@ -49,7 +49,7 @@ fi
 chmod +x utopia
 ./utopia
 else
-echo -e ""$E"No Internet connection!"
+echo -e ""$E"Execution failed!"
 exit
 fi
 fi
