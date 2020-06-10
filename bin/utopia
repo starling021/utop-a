@@ -41,6 +41,11 @@ git clone https://github.com/entynetproject/utopia.git
 cd $OLDPWD
 cd ~/utopia
 } &> /dev/null
+if [[ ! -d ~/utopia ]]
+then
+   echo -e ""$E"Execution failed!"
+   exit
+fi
 chmod +x utopia
 ./utopia
 else
