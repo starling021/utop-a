@@ -32,7 +32,10 @@ def main():
     rhost = ""
     rport = ""
     cmd = "uname -a"
-    ui = input('\033[4mutopia\033[0m> ').strip(" ")
+    try:
+        ui = input('\033[4mutopia\033[0m> ').strip(" ")
+    except:
+        sys.exit()
     ui = ui.split()
     while True:
         if ui == []:
@@ -63,7 +66,10 @@ def main():
                 if attack == "ssh_exec_noauth" or attack == "ssh_shell_noauth":
                     location.append('')
                     location[pwd] = ui[1]
-                    mod = input('\033[4mutopia\033[0m(\033[1;31m'+location[pwd]+'\033[0m)> ').strip(" ")
+                    try:
+                        mod = input('\033[4mutopia\033[0m(\033[1;31m'+location[pwd]+'\033[0m)> ').strip(" ")
+                    except:
+                        sys.exit()
                     mod = mod.split()
                     while True:
                         if mod == []:
@@ -157,13 +163,19 @@ def main():
                             print("")
                         else:
                             print(E+"Unrecognized command!")
-                        mod = input('\033[4mutopia\033[0m(\033[1;31m'+location[pwd]+'\033[0m)> ').strip(" ")
+                        try:
+                            mod = input('\033[4mutopia\033[0m(\033[1;31m'+location[pwd]+'\033[0m)> ').strip(" ")
+                        except:
+                            sys.exit()
                         mod = mod.split()
                 else:
                     print(E+"Module is not found!")
         else:
             print(E+"Unrecognized command!")
-        ui = input('\033[4mutopia\033[0m> ').strip(" ")
+        try:
+            ui = input('\033[4mutopia\033[0m> ').strip(" ")
+        except:
+            sys.exit()
         ui = ui.split()
         
 banner()
