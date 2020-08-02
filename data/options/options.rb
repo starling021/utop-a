@@ -1,5 +1,9 @@
 #!/usr/bin/env ruby
 
+Signal.trap("INT") {
+    abort()
+}
+
 attack = ARGV[0]
 rhost = ARGV[1]
 rport = ARGV[2]
